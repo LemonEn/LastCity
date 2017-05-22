@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/mentcent_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/new_top_title" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/task_mycitymoney_top" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/money_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/money_text2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="已有城市币 "
+                android:textColor="#FBE600"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/money_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/makemoney_relay"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:id="@+id/makemoney_relay2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/task_mycitymoney_selector" >
+
+                <TextView
+                    android:id="@+id/toptextOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:text="赚城市币"
+                    android:textColor="#ed61a1"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/top_task_textOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/toptextOne"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:text="轻松做任务"
+                    android:textColor="@color/color_999"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/make_money_image"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/top_task_textOne"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/task_mycitymoney_pig" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/mall_relay"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:id="@+id/mall_relay2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/task_mycitymoney_selector2" >
+
+                <TextView
+                    android:id="@+id/toptextTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:text="积分商城"
+                    android:textColor="#df7d21"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/top_task_textTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/toptextTwo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:text="积分兑大礼"
+                    android:textColor="@color/color_999"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/mall_imageOne"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/top_task_textTwo"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/task_mycitymoney_mall" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="fill_parent"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/choujiang_relay"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:padding="5dp" >
+
+            <RelativeLayout
+                android:id="@+id/choujiang_relay2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/task_mycitymoney_selector3" >
+
+                <TextView
+                    android:id="@+id/toptext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:text="城市币抽奖"
+                    android:textColor="#3cb2e4"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/top_task_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/toptext"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:text="天天抽大奖"
+                    android:textColor="@color/color_999"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/mall_image"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/top_task_text"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/task_mycitymoney_choujiang" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/line" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@color/gray_bg01"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="城市币明细"
+        android:textColor="@color/color_999"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        android:id="@+id/relay"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="事项"
+            android:textColor="@color/color_666" />
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="明细"
+            android:textColor="@color/color_666" />
+
+        <ImageView
+            android:id="@+id/state_image"
+            android:layout_width="12dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/info_text"
+            android:src="@drawable/buttom_arrow" />
+
+        <TextView
+            android:id="@+id/state_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="时间"
+            android:textColor="@color/color_666" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.example.think.citypass.myview.XListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/white"
+            android:dividerHeight="0dip"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/my_listview_selector" />
+
+        <include
+            android:id="@+id/layout_load"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/layout_loading" />
+
+        <LinearLayout
+            android:id="@+id/layout_fail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_fault"
+                android:contentDescription="@string/desc"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/info_relaymain"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#70000000"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/info_relay0"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/my_listview_selector" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="全部"
+                    android:textColor="@color/color_333"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view0"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/info_relay0"
+                android:background="@color/line" />
+
+            <RelativeLayout
+                android:id="@+id/info_relay1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/view0"
+                android:background="@drawable/my_listview_selector" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="消耗"
+                    android:textColor="@color/color_333"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/info_relay1"
+                android:background="@color/line" />
+
+            <RelativeLayout
+                android:id="@+id/info_relay2"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_below="@+id/view1"
+                android:background="@drawable/my_listview_selector" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="增加"
+                    android:textColor="@color/color_333"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/info_relay2"
+                android:background="@color/line" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

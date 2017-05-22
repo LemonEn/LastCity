@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/findhouse_likeitem_image"
+        android:src="@drawable/none_sj2"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_toRightOf="@id/findhouse_likeitem_image"
+        android:layout_marginLeft="7dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/findhouse_likeitem_title"
+            android:text="赠送地下室66平米"
+            android:textSize="12sp"
+            android:textColor="#252323"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/findhouse_likeitem_tiaojian"
+            android:text="67平/精装/店铺商铺/户型不限"
+            android:layout_width="wrap_content"
+            android:textColor="#b9a9a9"
+            android:textSize="12sp"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/findhouse_likeitem_jiage"
+            android:text="36万"
+            android:layout_marginTop="3dp"
+            android:textSize="12sp"
+            android:textColor="#ff44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
+  <TextView
+      android:text="中介"
+      android:layout_margin="10dp"
+      android:background="@drawable/textcolor"
+      android:textSize="14dp"
+      android:layout_marginRight="10dp"
+      android:gravity="center"
+      android:textColor="#ff44"
+      android:layout_width="40dp"
+      android:layout_height="20dp" />
+<TextView
+    android:text="今天"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

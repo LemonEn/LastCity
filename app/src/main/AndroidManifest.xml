@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.think.citypass">
+
+    <!--<uses-permission android:name="android.permission.SEND_SMS" />-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.zxm.ShouyeFenleiLife"/>
+        <activity android:name=".activity.zxm.CityChoiceActivity"/>
+        <activity android:name=".activity.zxm.ShouyeZBActivity"/>
+        <activity android:name=".activity.zxm.ShouyeNoticePhone"/>
+        <activity android:name=".activity.zxm.ShouyeHuabi"/>
+        <activity android:name=".activity.zxm.ShouyeHaoli"/>
+        <activity android:name=".activity.zxm.FindworkActivity"/>
+        <activity android:name=".activity.zxm.ShouyeNotice"/>
+        <activity android:name=".activity.zxm.FindhouseActivity"/>
+        <activity android:name=".activity.zxm.LoginActivity"/>
+        <activity android:name=".activity.zxm.RegisterActivity"/>
+        <activity android:name=".activity.zxm.WebView_Activity"/>
+
+
+
+
+        <activity android:name=".activity.xzy.ErweimaActivity"/>
+
+        <activity android:name=".activity.GuideActivity" />
+        <activity android:name=".activity.lxl.job.MyMoneyActivity"></activity>
+        <activity android:name=".activity.lxl.job.JianLiKuActivity"/>
+        <activity android:name=".activity.shezhi.AboutMine"/>
+        <activity android:name=".activity.lxl.job.Recruitment_JianZhiActivity"/>
+        <activity android:name=".activity.lxl.job.Recuitment_QuanZhiActivity"/>
+        <activity android:name=".activity.shezhi.SheZhiActivity"/>
+
+        <activity android:name=".activity.shezhi.MessageInfoActivity"></activity>
+        <activity android:name=".activity.shezhi.MyPasswordActivity"></activity>
+        <!--&lt;!&ndash;设置autolayout的     注明你的设计稿的尺寸。&ndash;&gt;-->
+        <!--<meta-data-->
+        <!--android:name="design_width"-->
+        <!--android:value="774"></meta-data>-->
+        <!--<meta-data-->
+        <!--android:name="design_height"-->
+        <!--android:value="1430"></meta-data>-->
+
+    </application>
+
+</manifest>

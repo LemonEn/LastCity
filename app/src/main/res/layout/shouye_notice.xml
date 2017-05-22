@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <RelativeLayout
+        android:background="#f13030"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:id="@+id/shouyehuabi_close"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/btn_back_normal"
+                android:id="@+id/image1"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+        <TextView
+            android:text="消息通知"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/shouye_image"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_fenlei"
+            android:layout_width="30dp"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+
+   <LinearLayout
+       android:id="@+id/shouye_notice_push"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <com.example.think.citypass.myview.RoundImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/newsremind_systeminfopush"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="精彩推荐"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="暂无最新内容"
+            android:textSize="12sp"
+            android:textColor="#d2cbcb"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+<TextView
+    android:background="#c4bcbc"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp" />
+
+    <LinearLayout
+        android:id="@+id/shouye_notice_systemnotice"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.example.think.citypass.myview.RoundImageView
+            android:layout_margin="5dp"
+            android:src="@drawable/newsremind_systemnotification"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="系统通知"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="暂无最新内容"
+                android:textSize="12sp"
+                android:textColor="#d2cbcb"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:background="#c4bcbc"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+
+    <LinearLayout
+        android:id="@+id/shouye_notice_dongtai"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.example.think.citypass.myview.RoundImageView
+            android:layout_margin="5dp"
+            android:src="@drawable/newsremin_dongtai"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="好友动态"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="暂无最新内容"
+                android:textSize="12sp"
+                android:textColor="#d2cbcb"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:background="#c4bcbc"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+    <LinearLayout
+        android:id="@+id/shouye_notice_visitor"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <com.example.think.citypass.myview.RoundImageView
+            android:layout_margin="5dp"
+            android:src="@drawable/newsremind_visitor"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="谁看过我"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="暂无最新内容"
+                android:textSize="12sp"
+                android:textColor="#d2cbcb"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

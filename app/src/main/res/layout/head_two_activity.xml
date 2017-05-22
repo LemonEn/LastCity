@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/nologin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您好，城市游客！请先"
+                android:textColor="#1a1919"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/denglu_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册或登录"
+                android:textColor="#2a17ab"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/juming_textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="欢迎来到洮南社区（本城居民125311人）"
+            android:textColor="#cec0c0"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:background="#E2E2E2" />
+    </LinearLayout>
+
+
+    <com.jude.rollviewpager.RollPagerView
+        android:id="@+id/RollPagerView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        ></com.jude.rollviewpager.RollPagerView>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d1cdcd">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <LinearLayout
+            android:background="@drawable/layoutselector"
+            android:id="@+id/findwork_layout"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+
+                android:background="@mipmap/ico_jiudian"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="找工作"    android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/layoutselector"
+            android:id="@+id/findhouse_layout"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+
+                android:background="@mipmap/ico_hunjia"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="找房子"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@drawable/layoutselector"
+            android:id="@+id/fenleilife_layout"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+
+                android:background="@mipmap/ico_quanbu"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="分类生活"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/layoutselector"
+            android:id="@+id/tongcheng_layout"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+
+                android:background="@mipmap/ico_teyue"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="同城咨询"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#d1cdcd">
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44bcbcc2"
+    >
+<RelativeLayout
+    android:background="#f13030"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <LinearLayout
+        android:id="@+id/findwork_close"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/btn_back_normal"
+            android:id="@+id/image1"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="关闭"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/image1"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:text="找工作"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/findwork_more"
+        android:src="@drawable/new_con_share_2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+</RelativeLayout>
+
+    <LinearLayout
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/findwork_quanzhi"
+                android:text="全职招聘"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:drawableTop="@drawable/zfz_qiugou"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="0.5dp"
+            android:background="#adadaf"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/findwork_jianzhi"
+                android:text="兼职招聘"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:drawableTop="@drawable/zfz_chushou"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="0.5dp"
+            android:background="#adadaf"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="求职简历"
+                android:id="@+id/findwork_jianli"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:drawableTop="@drawable/zfz_xinloupan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#44bcbcc2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/title_shu"
+            android:layout_width="30dp"
+            android:layout_margin="4dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="热门职位"
+            android:layout_toRightOf="@id/image2"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+       <LinearLayout
+           android:id="@+id/findwork_lookmore1"
+           android:layout_alignParentRight="true"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent">
+           <TextView
+               android:text="查看全部"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:gravity="center"
+               android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <ImageView
+               android:src="@drawable/ccoo_icon_to_new"
+               android:layout_alignParentRight="true"
+               android:layout_width="30dp"
+               android:layout_height="30dp" />
+       </LinearLayout>
+    </RelativeLayout>
+    <TextView
+       android:background="#bcb5b5"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+    <LinearLayout
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:id="@+id/findwork_yewuxiaoshou"
+                android:text="业务/销售"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:textColor="#1ba1d2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="#d1c4c4"
+                android:layout_marginTop="9dp"
+                android:layout_width="0.5dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/findwork_yingyeyuan"
+                android:text="营业员/店员 "
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:textColor="#1ba1d2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="#d1c4c4"
+                android:layout_marginTop="9dp"
+                android:layout_width="0.5dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/findwork_jigong"
+                android:text="工人/技工"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:textColor="#1ba1d2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+</LinearLayout>
+        <LinearLayout
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+                <TextView
+                    android:id="@+id/findwork_teacher"
+                    android:text="老师/家教"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center"
+                    android:textColor="#1ba1d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:background="#d1c4c4"
+                    android:layout_marginTop="9dp"
+                    android:layout_width="0.5dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:id="@+id/findwork_manager"
+                    android:text="经理/管理"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center"
+                    android:textColor="#1ba1d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:background="#d1c4c4"
+                    android:layout_marginTop="9dp"
+                    android:layout_width="0.5dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:id="@+id/findwork_ui"
+                    android:text="美工/设计师"
+                    android:textSize="12sp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="7dp"
+                    android:gravity="center"
+                    android:textColor="#1ba1d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+</LinearLayout>
+            <LinearLayout
+                android:background="#fff"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+                    <TextView
+                        android:id="@+id/findwork_driver"
+                        android:text="司机/跟车"
+                        android:textSize="12sp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="7dp"
+                        android:gravity="center"
+                        android:textColor="#1ba1d2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:background="#d1c4c4"
+                        android:layout_marginTop="9dp"
+                        android:layout_width="0.5dp"
+                        android:layout_height="15dp" />
+                    <TextView
+                        android:id="@+id/findwork_qiantai"
+                        android:text="前台/收银员"
+                        android:textSize="12sp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="7dp"
+                        android:gravity="center"
+                        android:textColor="#1ba1d2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:background="#d1c4c4"
+                        android:layout_marginTop="9dp"
+                        android:layout_width="0.5dp"
+                        android:layout_height="15dp" />
+                    <TextView
+                        android:id="@+id/findwork_server"
+                        android:text="传菜员/服务员"
+                        android:textSize="12sp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="7dp"
+                        android:gravity="center"
+                        android:textColor="#1ba1d2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#44bcbcc2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/image3"
+            android:src="@drawable/title_shu"
+            android:layout_width="30dp"
+            android:layout_margin="4dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="最新招聘"
+            android:layout_toRightOf="@id/image3"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/findwork_lookmore2"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="查看全部"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/ccoo_icon_to_new"
+                android:layout_alignParentRight="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:background="#fff"
+        android:id="@+id/findwork_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+    <LinearLayout
+        android:background="#44bcbcc2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/image4"
+            android:src="@drawable/title_shu"
+            android:layout_width="30dp"
+            android:layout_margin="4dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="名企招聘"
+            android:textColor="#eda622"
+            android:layout_toRightOf="@id/image4"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="#44bcbcc2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></LinearLayout>
+<LinearLayout
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+
+        android:text="没有更多内容了"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+</LinearLayout>

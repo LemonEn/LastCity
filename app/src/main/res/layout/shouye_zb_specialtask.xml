@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:paddingLeft="10dp"
+    android:layout_height="70dp">
+    <ImageView
+        android:src="@drawable/ico_hunjia"
+        android:background="@drawable/oralimage"
+        android:layout_width="40dp"
+        android:layout_margin="5dp"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="设置头像"
+            android:textSize="16sp"
+            android:textColor="#2e2b2b"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/task_money2"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:text="5"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/task_money4"
+                android:layout_marginLeft="30dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:text="50"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/slide"
+        android:layout_width="50dp"
+        android:layout_height="30dp">
+        <TextView
+            android:text="领取"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/ico_jiaju"
+            android:background="@drawable/oralimage"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="完善基本信息"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="20"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="100"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+            <TextView
+                android:text="领取"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/ico_meishi"
+            android:background="@drawable/oralimage"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="完善联系信息"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="10"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="50"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+            <TextView
+                android:text="领取"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/ico_cheliang"
+            android:background="@drawable/oralimage"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="手机认证"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="20"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="100"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+            <TextView
+                android:text="领取"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/ico_jiudian"
+            android:background="@drawable/oralimage"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="搭讪与结识"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="10"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="50"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+            <TextView
+                android:text="领取"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/ico_qinzi"
+            android:background="@drawable/oralimage"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="狂点赞"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="10"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="30"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+            <TextView
+                android:text="领取"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+
+            android:background="@drawable/ico_teyue"
+            android:layout_width="38dp"
+            android:layout_margin="5dp"
+            android:layout_height="38dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="我要评论"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="20"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="100"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+            <TextView
+                android:text="领取"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="11dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/ico_jiudian"
+            android:background="@drawable/oralimage"
+            android:layout_width="38dp"
+            android:layout_margin="5dp"
+            android:layout_height="38dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="我爱抢楼"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="20"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="150"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+            <TextView
+                android:text="领取"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingLeft="11dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/icon_cw"
+            android:background="@drawable/oralimage"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="我爱发帖"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="30"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="200"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+            <TextView
+                android:text="领取"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:paddingLeft="11dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/ic_jianli_icon"
+            android:background="@drawable/oralimage"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="我有观点"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="30"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="150"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+            <TextView
+                android:text="领取"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:paddingLeft="11dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/ic_liulan"
+            android:background="@drawable/oralimage"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="回复并分享"
+                android:textSize="16sp"
+                android:textColor="#2e2b2b"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/task_money2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="20"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/task_money4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+                <TextView
+                    android:text="150"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/slide"
+            android:layout_width="50dp"
+            android:layout_height="30dp">
+      <TextView
+          android:text="领取"
+          android:textSize="16sp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

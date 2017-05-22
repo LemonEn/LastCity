@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mDrawerLayout"
+    android:orientation="vertical"
+
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <include
+
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            layout="@layout/include_titlebar"/>
+    </LinearLayout>
+
+
+
+   <LinearLayout
+       android:id="@+id/one"
+       android:layout_alignParentBottom="true"
+       android:layout_width="match_parent"
+       android:layout_height="60dp">
+       <include
+
+           android:layout_height="60dp"
+           android:layout_width="match_parent"
+           layout="@layout/radiogroup_">
+
+       </include>
+
+   </LinearLayout>
+
+    <FrameLayout
+        android:layout_below="@id/top"
+        android:layout_above="@id/one"
+        android:id="@+id/Home_Frame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </FrameLayout>
+
+</RelativeLayout>

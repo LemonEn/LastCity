@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg" >
+
+    <include
+        android:id="@+id/titleRea"
+        layout="@layout/title_job_single" />
+
+    <LinearLayout
+        android:id="@+id/array_tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_below="@id/titleRea"
+        android:background="@color/white_lower"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_position"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:text="职位"
+            android:textColor="#787878"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0.5dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:layout_margin="10dip"
+            android:background="@color/grayline" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_salary"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableRight="@drawable/ic_arrow_down"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="10dip"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="月薪"-->
+            <!--android:textColor="#787878"-->
+            <!--android:textSize="15sp" />-->
+
+        <TextView
+            android:layout_width="0.5dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:layout_margin="10dip"
+            android:background="@color/grayline" />
+
+        <TextView
+            android:id="@+id/tv_edu"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:text="学历"
+            android:textColor="#787878"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0.5dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:layout_margin="10dip"
+            android:background="@color/grayline" />
+
+        <TextView
+            android:id="@+id/tv_exp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:padding="10dip"
+            android:singleLine="true"
+            android:text="经验"
+            android:textColor="#787878"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@id/array_tab_layout"
+        android:background="@color/grayline" />
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_line" >
+
+        <com.www.ccoocity.widget.MyListView
+            android:id="@+id/table_list"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:listSelector="#00000000" />
+
+        <LinearLayout
+            android:id="@+id/linear_fail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_fault"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dip"
+            android:text="已显示全部内容"
+            android:textColor="@color/back_03"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    
+
+    <View
+        android:id="@+id/mainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@+id/framelayout" 
+        />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/array_tab_layout"
+        layout="@layout/layout_loading"
+       />
+</RelativeLayout>

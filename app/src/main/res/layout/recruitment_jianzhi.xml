@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical" >
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/layout_titlebar2" />
+
+    <LinearLayout
+        android:id="@+id/array_tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@color/white_lower"
+        android:gravity="center"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/assor_layout"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+            <TextView
+                android:id="@+id/allCla"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:text="区域"
+                android:textColor="#787878"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0.5dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:background="@color/grayline" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/salesAll"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:drawablePadding="10dip"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:gravity="center_vertical"
+                android:padding="10dip"
+                android:singleLine="true"
+                android:text="职位"
+                android:textColor="#787878"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_below="@id/array_tab_layout"
+        android:background="@color/grayline" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <com.example.think.citypass.myview.XListView
+                    android:id="@+id/listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cacheColorHint="#00000000"
+                    android:divider="#EBEBEB"
+                    android:dividerHeight="1dip"
+                    android:fadingEdge="none"
+                    android:listSelector="#00000000" />
+
+                <View
+                    android:id="@+id/sales_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/black" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <include
+            android:id="@+id/layout_load"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/layout_loading" />
+
+        <LinearLayout
+            android:id="@+id/layout_fail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_fault"
+                android:contentDescription="@string/desc"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

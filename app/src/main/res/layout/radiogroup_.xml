@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RadioGroup
+        android:id="@+id/Bottom_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/line"
+        android:weightSum="5">
+
+        <RadioButton
+            android:id="@+id/TouTiaoBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/hotstyle"
+            android:gravity="center_horizontal"
+            android:text="头条"
+            android:textColor="@drawable/main_radiogroup" />
+
+        <RadioButton
+            android:id="@+id/NaoNaoBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/bbsstyle"
+            android:gravity="center_horizontal"
+            android:text="闹闹"
+            android:textColor="@drawable/main_radiogroup" />
+
+        <RadioButton
+            android:id="@+id/SheQuBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/lifestyle"
+            android:gravity="center_horizontal"
+            android:text="社区"
+            android:textColor="@drawable/main_radiogroup" />
+
+        <RadioButton
+            android:id="@+id/ShengHuoBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/utilstyle"
+            android:gravity="center_horizontal"
+            android:text="生活"
+            android:textColor="@drawable/main_radiogroup" />
+
+        <RadioButton
+            android:id="@+id/DiscoverBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/findstyle"
+            android:gravity="center_horizontal"
+            android:text="发现"
+            android:textColor="@drawable/main_radiogroup" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/Home_Frame"
+        android:layout_above="@id/Bottom_Group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+   <!-- <FrameLayout
+
+        android:id="@+id/main_framlayout"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />-->
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </LinearLayout>
+   </ScrollView>
+
+
+    <RadioGroup
+
+        android:id="@+id/main_radiogroup"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="70dp"
+
+        android:layout_alignParentBottom="true"
+
+        android:background="#f5efee"
+
+        android:orientation="horizontal"
+
+        android:weightSum="5">
+
+
+
+        <RadioButton
+
+            android:id="@+id/radiobtn_one"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+
+            android:button="@null"
+
+            android:checked="true"
+
+            android:drawablePadding="3dp"
+
+            android:drawableTop="@drawable/hotstyle"
+
+            android:gravity="center"
+
+            android:padding="5dp"
+
+            android:text="首页"
+
+            android:textColor="@drawable/main_radiogroup" />
+
+
+
+        <RadioButton
+
+            android:id="@+id/radiobtn_two"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+
+            android:button="@null"
+
+            android:drawablePadding="3dp"
+
+            android:drawableTop="@drawable/bbsstyle"
+
+            android:gravity="center"
+
+            android:padding="5dp"
+
+            android:text="社区"
+
+            android:textColor="@drawable/main_radiogroup" />
+
+
+
+        <RadioButton
+
+            android:id="@+id/radiobtn_three"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+
+            android:button="@null"
+
+            android:drawablePadding="3dp"
+
+            android:drawableTop="@drawable/lifestyle"
+
+            android:gravity="center"
+
+            android:padding="5dp"
+
+            android:text="生活"
+
+            android:textColor="@drawable/main_radiogroup" />
+
+
+
+
+
+        <RadioButton
+
+            android:id="@+id/radiobtn_four"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+
+            android:button="@null"
+
+            android:drawablePadding="3dp"
+
+            android:drawableTop="@drawable/utilstyle"
+
+            android:gravity="center"
+
+            android:padding="5dp"
+
+            android:text="优惠"
+
+            android:textColor="@drawable/main_radiogroup" />
+
+
+
+        <RadioButton
+
+            android:id="@+id/radiobtn_five"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+
+            android:button="@null"
+
+            android:drawablePadding="3dp"
+
+            android:drawableTop="@drawable/findstyle"
+
+            android:gravity="center"
+
+            android:padding="5dp"
+
+            android:text="发现"
+
+            android:textColor="@drawable/main_radiogroup" />
+
+
+
+
+
+    </RadioGroup>
+
+</RelativeLayout>

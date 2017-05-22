@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+        android:background="#f13030"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:id="@+id/shouyehuabi_close"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/btn_back_normal"
+                android:id="@+id/image1"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+        <TextView
+            android:text="城市币商城"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <com.jude.rollviewpager.RollPagerView
+        android:layout_width="match_parent"
+        android:id="@+id/shouye_huabi_rollpageview"
+        android:layout_height="120dp">
+        
+    </com.jude.rollviewpager.RollPagerView>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_margin="5dp"
+            android:id="@+id/one"
+            android:src="@drawable/ccoo_icon_guangbo"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <com.example.think.citypass.myview.TipView
+            android:id="@+id/looptextview"
+            android:layout_toRightOf="@id/one"
+            android:layout_width="200dp"
+            android:layout_height="match_parent">
+
+        </com.example.think.citypass.myview.TipView>
+        <TextView
+            android:text="消费排行榜"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#0bb3d1"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/title_shu"
+            android:layout_width="30dp"
+            android:layout_margin="4dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="推荐商品"
+            android:layout_toRightOf="@id/image2"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/image3"
+            android:src="@drawable/title_shu"
+            android:layout_width="30dp"
+            android:layout_margin="4dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="全部商品"
+            android:layout_toRightOf="@id/image3"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/shouye_huabi_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></android.support.design.widget.TabLayout>
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/shouye_huabi_viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v4.view.ViewPager>
+
+
+
+
+</LinearLayout>

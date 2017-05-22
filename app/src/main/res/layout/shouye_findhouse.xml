@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cac9c9">
+    <RelativeLayout
+        android:background="#f13030"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:id="@+id/findhouse_close"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/btn_back_normal"
+                android:id="@+id/image1"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:text="关闭"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                android:layout_marginTop="9dp"
+                android:layout_toRightOf="@id/image1"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:text="房屋交易"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/findhouse_more"
+            android:src="@drawable/new_con_share_2"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <RelativeLayout
+            android:id="@+id/findhouse_house_sale"
+            android:layout_weight="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="房屋出售"
+                android:id="@+id/one"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/task_arrow2"
+                android:layout_width="15dp"
+android:layout_toRightOf="@id/one"
+                android:layout_centerVertical="true"
+                android:layout_height="20dp" />
+        </RelativeLayout> <TextView
+        android:layout_width="0.4dp"
+        android:background="#f444"
+        android:layout_margin="8dp"
+        android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/findhouse_edittext"
+            android:layout_weight="10"
+            android:hint="请输入关键字"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0.4dp"
+            android:background="#f444"
+            android:layout_margin="8dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/findhouse_search"
+            android:layout_weight="2"
+            android:src="@drawable/sousuo"
+            android:layout_marginTop="10dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/findhouse_newloupan"
+            android:text="新楼"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/zfz_xinloupan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="0.5dp"
+        android:background="#c7c7cc"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/findhouse_oldhouse"
+            android:text="二手"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:drawableTop="@drawable/zfz_chushou"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="0.8dp"
+        android:background="#c0c0c1"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="租房"
+            android:id="@+id/findhouse_renthouse"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:drawableTop="@drawable/zfz_chuzu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="0.8dp"
+        android:background="#adadaf"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="转让"
+            android:id="@+id/findhouse_zhuanrang"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:drawableTop="@drawable/zfz_dianpu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+<TextView
+    android:background="#bebcbc"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp" />
+    <LinearLayout
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/findhouse_qiuzu"
+                android:text="求租"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:drawableTop="@drawable/zfz_qiuzu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="0.8dp"
+            android:background="#bebec1"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/findhouse_qiugou"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:drawableTop="@drawable/zfz_qiugou"
+                android:gravity="center"
+                android:text="求购"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="0.8dp"
+            android:background="#cececf"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="租房"
+                android:id="@+id/findhouse_xiaoqu"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:drawableTop="@drawable/zfz_xiaoqu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="0.8dp"
+            android:background="#cacace"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="中介"
+                android:id="@+id/findhouse_zhongjie"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:drawableTop="@drawable/zfz_zhongjie"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/title_shu"
+            android:layout_width="30dp"
+            android:layout_margin="4dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="猜你喜欢"
+            android:layout_toRightOf="@id/image2"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/findhouse_changeone"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/tableview_loading"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView
+                android:text="换一批"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+<ListView
+    android:background="#fff"
+    android:id="@+id/findhouse_like_listview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></ListView>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/image3"
+            android:src="@drawable/title_shu"
+            android:layout_width="30dp"
+            android:layout_margin="4dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="房产资讯"
+            android:layout_toRightOf="@id/image3"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/findhouse_fangchannews"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="更多"
+                android:textColor="#ff44"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:background="#fff"
+        android:id="@+id/findhouse_fangchan_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

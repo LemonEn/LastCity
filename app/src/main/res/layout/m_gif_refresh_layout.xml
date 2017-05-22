@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRelative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.think.citypass.myview.MRecyclerView
+        android:id="@+id/m_refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ffeabe"
+        android:gravity="center"
+        android:text="已更新10条信息"
+        android:textColor="#b86d1c"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/top_relay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/task_info_shape1"
+        android:padding="3dp"
+        android:visibility="gone">
+
+        <com.example.think.citypass.myview.RoundImageView
+            android:id="@+id/top_head_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/top_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/top_head_image"
+            android:text="有100条新回复"
+            android:textColor="#FFF"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/move_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ccoo_dra_trans_null_round"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="2dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/move_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/50"
+            android:textColor="#FFF"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/move_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/ccoo_icon_todown" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/load_layout"
+        layout="@layout/layout_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/failure_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_fault"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</RelativeLayout>
