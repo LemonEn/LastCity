@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+
     android:orientation="vertical">
 
     <ScrollView
@@ -15,6 +15,7 @@
 
             <ImageView
                 android:id="@+id/bg_image"
+                android:background="@drawable/main_theall_bg"
                 android:layout_width="match_parent"
                 android:layout_height="310dp"
                 android:scaleType="centerCrop" />
@@ -153,7 +154,7 @@
                         android:background="@color/color_999" />
 
                     <TextView
-                        android:id="@+id/school_text"
+                        android:id="@+id/like_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/view2"
@@ -170,13 +171,13 @@
                         android:layout_below="@+id/view2"
                         android:paddingRight="10dp"
                         android:layout_marginTop="15dp"
-                        android:layout_toLeftOf="@+id/school_pen_image"
+                        android:layout_toLeftOf="@+id/like_pen_image"
                         android:text="未设置"
                         android:textColor="@color/white"
                         android:textSize="16dp" />
 
                     <ImageView
-                        android:id="@+id/school_pen_image"
+                        android:id="@+id/like_pen_image"
                         android:layout_width="15dp"
                         android:layout_height="15dp"
                         android:layout_alignParentRight="true"

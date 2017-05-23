@@ -10,6 +10,8 @@ import com.example.think.citypass.common.base.BaseActivity;
 
 /**
  * Created by 张萌 on 2017/5/22.
+ *
+ *
  */
 
 public class LoginActivity  extends BaseActivity {
